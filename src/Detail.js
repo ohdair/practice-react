@@ -1,6 +1,5 @@
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useState } from "react/cjs/react.development";
 import "./Movie.css";
 
 export default function Detail() {
