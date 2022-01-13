@@ -31,8 +31,9 @@ function ToDo() {
       <ul>
         {toDos.map((item, index) => (
           <>
-            <li key={index}>{item}</li>
-            <button onClick={deleteList}>delete</button>
+            <li key={index} onDoubleClick={deleteList}>
+              <span>{item}</span>
+            </li>
           </>
         ))}
       </ul>
